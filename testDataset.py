@@ -33,4 +33,4 @@ class TestDataset(data.Dataset):
         
         if self.transform is not None:
             sample = self.transform(sample)
-        return [sample]
+        return sample
