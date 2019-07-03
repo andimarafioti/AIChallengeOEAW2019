@@ -9,7 +9,7 @@ import torchvision.transforms as transforms
 from sklearn.preprocessing import LabelEncoder
 
 
-class InstrumentsDataset(data.Dataset):
+class TrainDataset(data.Dataset):
     """Pytorch dataset for instruments
     args:
         root: root dir containing an audio directory with wav files.
